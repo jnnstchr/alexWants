@@ -1,0 +1,20 @@
+class JsonUtils{
+    public static makeJsonProperty(){
+
+    }
+    public static jsonStart(String nameString){
+        JSONObject obj = new JSONObject();
+        ObjectMapper mapper = new ObjectMapper();
+        ObjectNode rootNode = mapper.createObjectNode();
+        rootNode.put("Name", );
+    }
+    public static makeJsonBlock{   // yyyy isnt it very similar to the previous one?
+        JSONObject obj = new JSONObject();
+        ObjectMapper mapper = new ObjectMapper();
+        ObjectNode rootNode = mapper.createObjectNode();
+        rootNode.put("Name", somefunctiontogetit);
+        rootNode.put("SomeProperty", somefunctiontogetit);
+        rootNode.put("SomeAnotherProperty", somefunctiontogetit);
+
+    }
+}
